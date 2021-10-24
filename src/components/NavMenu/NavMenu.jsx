@@ -19,7 +19,7 @@ const NavMenu = () => {
    return (
       <div className="nav-menu">
          <div className="nav-menu__links">
-            <Link to="/" className={activeNav === "homebutton" ? "nav-menu__links--item--active" : "nav-menu__links--item"} name="homebutton" onClick={handleNavActive}>Home</Link>
+            <Link to="/home" className={activeNav === "homebutton" ? "nav-menu__links--item--active" : "nav-menu__links--item"} name="homebutton" onClick={handleNavActive}>Home</Link>
             <Link to="/projects" className={activeNav === "projectsbutton" ? "nav-menu__links--item--active" : "nav-menu__links--item"} name="projectsbutton" onClick={handleNavActive}>Projects</Link>
             <Link to="/about" className={activeNav === "aboutbutton" ? "nav-menu__links--item--active" : "nav-menu__links--item"} name="aboutbutton" onClick={handleNavActive}>About</Link>
             <div className="nav-menu__links--item--cv">Resume<Download className="icon" /></div>
@@ -30,7 +30,7 @@ const NavMenu = () => {
             <div className="nav-menu__burger--patty"></div>
          </div>
          {showMenu && <div className="nav-menu__temp">
-            <Link to="/" className="nav-menu__temp--item" onClick={handleBurgerMenu}>Home</Link>
+            <Link to="/home" className="nav-menu__temp--item" onClick={handleBurgerMenu}>Home</Link>
             <Link to="/projects" className="nav-menu__temp--item" onClick={handleBurgerMenu}>Projects</Link>
             <Link to="/about" className="nav-menu__temp--item" onClick={handleBurgerMenu}>About</Link>
             <div className="nav-menu__temp--item--cv">Resume<Download className="icon" /></div>

@@ -15,7 +15,7 @@ const App = () => {
       <div className="App">
         <Nav />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/home">
             <Home />
           </Route>
           <Route exact path="/projects">
