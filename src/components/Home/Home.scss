@@ -1,0 +1,88 @@
+@use '../../assets/styles/base'as *;
+@use '../../assets/styles/mixin'as *;
+
+.home {
+   position: relative;
+   width: 100%;
+   height: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   @include laptop {
+      max-width: 1280px;
+      margin: auto;
+   }
+
+   &__background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('../../assets/images/home-bg.jpg');
+      background-position: center;
+      background-size: cover;
+      z-index: 0;
+   }
+
+   &__greeting {
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      height: 25vh;
+      width: 100%;
+      max-width: 480px;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 1rem 2rem;
+
+      &--intro {
+         text-align: center;
+
+         h1 {
+            color: $color-bg;
+            font-size: 1.5rem;
+         }
+
+         h2 {
+            color: $color-bg;
+            font-size: 1rem;
+         }
+      }
+
+      &--button {
+         background-color: $color-btn;
+         display: inline-block;
+         color: $color-bg;
+         font-weight: bold;
+         padding: 15px 25px;
+         border: none;
+         cursor: pointer;
+         border-radius: 30px;
+         border: 2px solid transparent;
+         transition: 0.3s all ease-out;
+         box-sizing: content-box;
+      }
+
+      &--button:hover {
+         border: 2px solid $color-bg;
+         scale: 1.3;
+      }
+   }
+
+   &__socials {
+      position: absolute;
+      left: calc(50% - 60px);
+      bottom: 8%;
+      offset-position: left 60px;
+      width: 120px;
+
+      &--icon {
+         width: 30px;
+         margin: 15px;
+      }
+   }
+
+}

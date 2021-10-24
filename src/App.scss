@@ -1,0 +1,13 @@
+@use './assets/styles/base'as *;
+@use './assets/styles/mixin'as *;
+
+.App {
+   height: 100vh;
+   margin: auto;
+   background-color: $color-bg;
+   min-width: 320px;
+
+   // @include laptop {
+   //    max-width: 1280px;
+   // }
+}

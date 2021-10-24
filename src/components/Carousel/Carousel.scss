@@ -1,0 +1,11 @@
+@use '../../assets/styles/base'as *;
+@use '../../assets/styles/mixin'as *;
+
+.carousel {
+   width: 90%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin: auto;
+   height: 100%;
+}

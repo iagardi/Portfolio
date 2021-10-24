@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+
+$color-bg: #fefffa;
+$color-fonts: #290c0c;
+$color-btn: #1243ed;
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Play", sans-serif;
+   color: $color-fonts;
+}

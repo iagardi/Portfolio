@@ -1,0 +1,46 @@
+@use '../../assets/styles/base'as *;
+@use '../../assets/styles/mixin'as *;
+
+.projectcard {
+   background-color: rgba(0, 0, 0, 0.3);
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 10px 0;
+   color: $color-bg;
+
+   &__photo {
+      height: 40%;
+      width: auto;
+   }
+
+   &__name {
+      color: $color-bg;
+      padding-bottom: 10px;
+   }
+
+   &__description {
+      color: $color-bg;
+      font-weight: normal;
+      text-align: center;
+   }
+
+   &__technologies {
+      color: $color-bg;
+   }
+
+   &__links {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+
+      &--item {
+         color: $color-bg;
+         text-decoration: none;
+      }
+   }
+
+
+}
