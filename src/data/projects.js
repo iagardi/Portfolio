@@ -4,7 +4,7 @@ const projects = [{
    technology: ["HTML", "Sass", "JavaScript", "Cypress testing"],
    hostedURL: "https://iagardi.github.io/Calculator/",
    githubURL: "https://github.com/iagardi/Calculator",
-   photo: "https://github.com/iagardi/Calculator/main/assets/calculator.png"
+   photo: "../../assets/images/calculator.png"
 }, {
    name: "Morse translator",
    description: "An English-morse and morse-English translator",
