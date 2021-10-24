@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import github from '../../assets/icons/github-white.svg'
 import linkedin from '../../assets/icons/linkedin-white.svg'
@@ -14,7 +15,7 @@ const Home = () => {
                <h1 >Hi, I am Istvan</h1>
                <h2 >A London based Junior Software Developer</h2>
             </div>
-            <button className="home__greeting--button">See my projects</button>
+            <Link to="/projects" className="home__greeting--button">See my projects</Link>
          </div>
          <div className="home__socials">
             <a href="https://github.com/iagardi" target="_blank" rel="noreferrer">

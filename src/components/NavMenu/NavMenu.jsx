@@ -10,6 +10,7 @@ const NavMenu = () => {
 
    const handleNavActive = (event) => {
       setActiveNav(event.target.name)
+      console.log(window.location.href)
    }
 
    const handleBurgerMenu = () => {
