@@ -7,10 +7,11 @@ const projects = [{
    photo: "../../assets/images/calculator.png"
 }, {
    name: "Morse translator",
-   description: "An English-morse and morse-English translator",
+   description: "An English-to-morse and morse-to-English translator, created on the n-th week of the _nology course",
    technology: ["HTML", "Sass", "JavaScript"],
    hostedURL: "https://iagardi.github.io/morse-translator/",
    githubURL: "https://github.com/iagardi/morse-translator",
+   photo: "../../assets/images/morse-translator.png"
 }, {
    name: "Punk API",
    description: "A small web app to browse and search the products of Brewdog, using the data from 'https://punkapi.com/'",

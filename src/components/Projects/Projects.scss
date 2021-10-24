@@ -7,21 +7,7 @@
    align-items: center;
    height: 90%;
    width: 100%;
-   border: 1px solid black;
    position: relative;
-
-   @include mobile {
-      display: grid;
-      padding: 10vw;
-      gap: 10vw;
-   }
-
-   @include tablet {
-      display: grid;
-      padding: 10vw;
-      gap: 10vw;
-      grid-template-columns: repeat(2, 1fr);
-   }
 
    @include laptop {
       max-width: 1280px;
@@ -42,7 +28,16 @@
 
    &__display {
       z-index: 1;
-      height: 60%;
+      height: 70%;
+
+      @include tablet {
+         height: 100%;
+         display: grid;
+         padding: 1rem;
+         gap: 1rem;
+         grid-template-columns: repeat(2, 1fr);
+         grid-auto-rows: 50%;
+      }
    }
 
 
