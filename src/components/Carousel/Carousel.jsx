@@ -3,8 +3,8 @@ import React, { useState } from 'react'
 import ProjectCard from '../ProjectCard/ProjectCard'
 import projects from '../../data/projects'
 
-import leftArrow from "../../assets/images/left-arrow.png";
-import rightArrow from "../../assets/images/right-arrow.png";
+import leftArrow from '../../assets/images/carousel-left-arrow.png'
+import rightArrow from '../../assets/images/carousel-right-arrow.png'
 
 import './Carousel.scss'
 
@@ -28,19 +28,23 @@ const Carousel = (props) => {
    };
    return (
       <div className="carousel">
-         <img
-            src={leftArrow}
-            alt="left arrow"
-            onClick={handleDecrement}
-            className="carousel__arrow carousel__arrow--left"
-         />
+
          <ProjectCard project={projects[counter]} />
-         <img
-            src={rightArrow}
-            alt="right arrow"
-            onClick={handleIncrement}
-            className="carousel__arrow carousel__arrow--right"
-         />
+
+         <div className="carousel__arrows">
+            <img
+               src={leftArrow}
+               alt="left arrow"
+               onClick={handleDecrement}
+               className="carousel__arrows-arrow"
+            />
+            <img
+               src={rightArrow}
+               alt="right arrow"
+               onClick={handleIncrement}
+               className="carousel__arrows-arrow"
+            />
+         </div>
 
       </div>
    )

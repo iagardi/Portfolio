@@ -2,7 +2,7 @@
 @use '../../assets/styles/mixin'as *;
 
 .projectcard {
-   background-color: rgba(0, 0, 0, 0.3);
+   background-color: rgba(0, 0, 0, 0.5);
    height: 100%;
    width: 100%;
    display: flex;
@@ -10,25 +10,56 @@
    align-items: center;
    padding: 10px 0;
    color: $color-bg;
+   border-radius: 10px;
+
+   >* {
+      margin-bottom: 10px;
+   }
 
    &__photo {
       height: 40%;
       width: auto;
+      border-radius: 10px;
    }
 
    &__name {
       color: $color-bg;
-      padding-bottom: 10px;
    }
 
    &__description {
       color: $color-bg;
       font-weight: normal;
       text-align: center;
+      font-size: 0.9rem;
    }
 
    &__technologies {
       color: $color-bg;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1rem;
+
+      &--label {
+         color: $color-bg;
+         font-size: 0.8rem;
+      }
+
+      &--list {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+
+         &-items {
+            background-color: $color-bg;
+            padding: 5px;
+            margin: 5px 5px;
+            border-radius: 30px;
+            font-size: 0.8rem;
+         }
+      }
    }
 
    &__links {
@@ -39,6 +70,13 @@
       &--item {
          color: $color-bg;
          text-decoration: none;
+         display: flex;
+         align-items: center;
+
+         .arrow {
+            height: 0.8rem;
+            fill: $color-bg;
+         }
       }
    }
 

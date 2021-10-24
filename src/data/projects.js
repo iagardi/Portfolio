@@ -1,7 +1,7 @@
 const projects = [{
    name: "Calculator",
    description: "A simple calculator project, created in the n-th week of the _nology course",
-   technology: ["HTML", "Sass", "JavaScript", "Cypress testing"],
+   technology: ["HTML", "Sass", "JavaScript", "Cypress"],
    hostedURL: "https://iagardi.github.io/Calculator/",
    githubURL: "https://github.com/iagardi/Calculator",
    photo: "../../assets/images/calculator.png"

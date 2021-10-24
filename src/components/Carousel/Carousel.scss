@@ -4,8 +4,28 @@
 .carousel {
    width: 90%;
    display: flex;
+   flex-direction: column;
    align-items: center;
    justify-content: space-around;
    margin: auto;
    height: 100%;
+
+   &__arrows {
+      height: 60px;
+      width: 150px;
+      border-radius: 10px;
+      position: absolute;
+      bottom: 35px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+
+      &-arrow {
+         background-color: rgba(0, 0, 0, 0.5);
+         padding: 5px;
+         height: 55px;
+         border-radius: 10px;
+      }
+   }
 }
