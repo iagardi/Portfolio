@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.46162c48.chunk.css",
-    "main.js": "/Portfolio/static/js/main.5c6900f7.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.5c6900f7.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.f8e745aa.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.f8e745aa.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.5c17ae07.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.5c17ae07.js.map",
     "static/js/2.3370f674.chunk.js": "/Portfolio/static/js/2.3370f674.chunk.js",
@@ -13,16 +13,18 @@
     "static/css/main.46162c48.chunk.css.map": "/Portfolio/static/css/main.46162c48.chunk.css.map",
     "static/js/2.3370f674.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.3370f674.chunk.js.LICENSE.txt",
     "static/media/arrow-right.8f0c49fd.svg": "/Portfolio/static/media/arrow-right.8f0c49fd.svg",
+    "static/media/calculator.a8007da6.png": "/Portfolio/static/media/calculator.a8007da6.png",
     "static/media/download.cd194ebb.svg": "/Portfolio/static/media/download.cd194ebb.svg",
     "static/media/github-white.671bf352.svg": "/Portfolio/static/media/github-white.671bf352.svg",
     "static/media/About.scss": "/Portfolio/static/media/home-bg.955a3a20.jpg",
     "static/media/html-5.04ad4ab8.svg": "/Portfolio/static/media/html-5.04ad4ab8.svg",
-    "static/media/linkedin-white.4a6d77f9.svg": "/Portfolio/static/media/linkedin-white.4a6d77f9.svg"
+    "static/media/linkedin-white.4a6d77f9.svg": "/Portfolio/static/media/linkedin-white.4a6d77f9.svg",
+    "static/media/morse-translator.795976eb.png": "/Portfolio/static/media/morse-translator.795976eb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5c17ae07.js",
     "static/js/2.3370f674.chunk.js",
     "static/css/main.46162c48.chunk.css",
-    "static/js/main.5c6900f7.chunk.js"
+    "static/js/main.f8e745aa.chunk.js"
   ]
 }
