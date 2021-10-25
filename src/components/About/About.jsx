@@ -10,6 +10,10 @@ import about from '../../data/about'
 const About = () => {
    const { intro, techStack } = about
 
+   const techStackJSX = techStack.map((tech, index) => {
+      return <TechIcon name={tech} key={tech + index} />
+   })
+
    return (
       <div className="about">
          <div className="about__background"></div>
@@ -21,7 +25,7 @@ const About = () => {
             </div>
          </div>
          <div className="about__techstack">
-            <TechIcon name={techStack[0]} />
+            {techStackJSX}
          </div>
       </div>
    )
