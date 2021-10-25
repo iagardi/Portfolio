@@ -3,7 +3,7 @@ import { useMediaQuery } from 'react-responsive'
 
 import projects from '../../data/projects'
 import ProjectCard from '../ProjectCard/ProjectCard'
-import Carousel from '../Carousel/Carousel'
+import ProjectCarousel from '../ProjectCarousel/ProjectCarousel'
 
 import './Projects.scss'
 
@@ -20,7 +20,7 @@ const Projects = () => {
       <div className="projects">
          <div className="projects__background"></div>
          <div className="projects__display">
-            {isNotMobile ? projectsJSX : <Carousel />}
+            {isNotMobile ? projectsJSX : <ProjectCarousel />}
          </div>
       </div>
    )

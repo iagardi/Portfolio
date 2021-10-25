@@ -6,7 +6,7 @@ import projects from '../../data/projects'
 import leftArrow from '../../assets/images/carousel-left-arrow.png'
 import rightArrow from '../../assets/images/carousel-right-arrow.png'
 
-import './Carousel.scss'
+import './ProjectCarousel.scss'
 
 const Carousel = (props) => {
 
