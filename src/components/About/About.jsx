@@ -23,12 +23,24 @@ const About = () => {
                <img className="about__content--profile-photo" src={profilePhoto} alt="Istvan"></img>
                <p className="about__content--profile-intro">{intro}</p>
             </div>
-            <div className="about__content--techstack">
-               {techStackJSX}
+            <div className="about__content--stack">
+               <div className="about__content--stack-tech">
+                  <h2 className="about__content--stack-tech-title">About me</h2>
+                  <div className="about__content--stack-tech-list">
+                     {techStackJSX}
+                  </div>
+               </div>
+               <div className="about__content--stack-tech">
+                  <h2 className="about__content--stack-tech-title">About me</h2>
+                  <div className="about__content--stack-tech-list">
+                     {techStackJSX}
+                  </div>
+               </div>
             </div>
          </div>
 
-      </div>
+
+      </div >
    )
 }
 
