@@ -5,11 +5,11 @@
    position: relative;
    width: 100%;
    height: 90%;
-   display: grid;
-   grid-template-columns: 1fr;
-   margin: auto;
 
-   overflow: auto;
+   @include laptop {
+      max-width: 1280px;
+      margin: auto;
+   }
 
    &__background {
       position: absolute;
@@ -24,10 +24,11 @@
    }
 
    &__content {
-      z-index: 1;
       height: 90vh;
       width: 90%;
       display: flex;
+      margin: auto;
+      flex-direction: column;
       justify-content: space-around;
       align-items: center;
       z-index: 1;
@@ -40,6 +41,7 @@
          flex-direction: column;
          justify-content: space-around;
          align-items: center;
+         z-index: 1;
 
          &-title {
             color: $color-bg;
@@ -47,6 +49,7 @@
 
          &-photo {
             height: 40%;
+            width: auto;
          }
 
          &-intro {
@@ -54,17 +57,22 @@
             color: $color-bg;
          }
       }
+
+      &--techstack {
+         z-index: 1;
+         background-color: rgba(0, 0, 0, 0.5);
+         height: 90vh;
+         width: 90%;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-items: center;
+
+
+
+      }
    }
 
-   &__techstack {
-      z-index: 1;
-      background-color: rgba(0, 0, 0, 0.5);
-      height: 90vh;
-      width: 90%;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      z-index: 1;
-   }
+
 
 }

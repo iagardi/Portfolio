@@ -23,10 +23,11 @@ const About = () => {
                <img className="about__content--profile-photo" src={profilePhoto} alt="Istvan"></img>
                <p className="about__content--profile-intro">{intro}</p>
             </div>
+            <div className="about__content--techstack">
+               {techStackJSX}
+            </div>
          </div>
-         <div className="about__techstack">
-            {techStackJSX}
-         </div>
+
       </div>
    )
 }
