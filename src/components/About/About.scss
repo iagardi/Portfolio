@@ -68,10 +68,52 @@
          height: 100%;
          width: 100%;
          display: flex;
-         flex-wrap: wrap;
+         flex-flow: column wrap;
          justify-content: center;
          align-items: center;
          border-radius: 10px;
+
+         &-tech {
+            height: 50%;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+
+            &-title {
+               color: $color-bg;
+            }
+
+            &-list {
+               display: flex;
+               flex-wrap: wrap;
+            }
+         }
+
+         &-exp {
+            height: 50%;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+
+            &-title {
+               color: $color-bg;
+            }
+
+            &-list {
+               display: flex;
+               flex-wrap: wrap;
+
+               >* {
+                  background-color: $color-bg;
+                  margin: 0 15px;
+                  border-radius: 15px;
+                  padding: 5px 15px;
+               }
+            }
+         }
+
       }
    }
 

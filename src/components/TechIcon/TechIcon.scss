@@ -3,8 +3,13 @@
 
 .techicon {
    width: 10%;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 
    &__icon {
       width: 100%;
+      padding: 10px;
    }
 }
