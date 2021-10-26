@@ -1,14 +1,16 @@
 import React from 'react'
 import TechIcon from '../TechIcon/TechIcon'
 
-import profilePhoto from '../../assets/images/istvan-profile.jpg'
+import gmail from '../../assets/icons/google-gmail.svg'
+import linkedinLogo from '../../assets/icons/linkedin-blue.svg'
+import cv from '../../assets/icons/cv.svg'
 
 import './About.scss'
 import about from '../../data/about'
 
 
 const About = () => {
-   const { intro, techStack, photo, experience } = about
+   const { intro, techStack, photo, experience, email, linkedin } = about
 
    const techStackJSX = techStack.map((tech, index) => {
       return <TechIcon name={tech} key={tech + index} />
@@ -39,6 +41,17 @@ const About = () => {
                   <div className="about__content--stack-exp-list">
                      {experienceJSX}
                   </div>
+               </div>
+            </div>
+            <div className="about__content--contact">
+               <h2 className="about__content--contact-title">Contact me</h2>
+               <div className="about__content--contact-list">
+                  <a href={email} className="about__content--contact-list-item" target="_blank" rel="noreferrer"><img src={gmail} alt="" /></a>
+                  <a href={linkedin} className="about__content--contact-list-item" target="_blank" rel="noreferrer"><img src={linkedinLogo} alt="" /></a>
+                  <a href="#" className="about__content--contact-list-item" target="_blank" rel="noreferrer"><img src={cv} alt="" /></a>
+               </div>
+               <div className="about__content--contact-footer">
+                  Istvan Agardi, 2021
                </div>
             </div>
          </div>

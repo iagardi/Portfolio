@@ -5,7 +5,6 @@
    position: relative;
    width: 100%;
    min-height: 90%;
-   height: fit-content;
 
    @include laptop {
       max-width: 1280px;
@@ -29,12 +28,12 @@
       width: 90%;
       display: grid;
       margin: auto;
-      padding-top: calc(100vw * 0.05);
+      padding: calc(100vw * 0.05);
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(85vh);
+      grid-auto-rows: minmax(85vh, 85vh);
       gap: calc(100vw * 0.05);
       z-index: 1;
-      overflow: scroll;
+      overflow-y: scroll;
 
       &--profile {
          height: 100%;
@@ -68,13 +67,15 @@
          height: 100%;
          width: 100%;
          display: flex;
-         flex-flow: column wrap;
-         justify-content: center;
+         flex-direction: column;
          align-items: center;
+         justify-content: center;
          border-radius: 10px;
 
          &-tech {
             height: 50%;
+            width: 80%;
+            margin: auto;
             display: flex;
             flex-flow: column wrap;
             justify-content: center;
@@ -82,28 +83,47 @@
 
             &-title {
                color: $color-bg;
+               height: 30%;
+               display: flex;
+               justify-content: center;
+               align-items: center;
             }
 
             &-list {
+               height: 70%;
                display: flex;
                flex-wrap: wrap;
+
+
+               >* {
+                  width: calc(100vw * 0.17);
+               }
             }
          }
 
          &-exp {
             height: 50%;
+            width: 80%;
+            margin: auto;
             display: flex;
-            flex-flow: column wrap;
+            flex-flow: wrap;
             justify-content: center;
             align-items: center;
 
             &-title {
                color: $color-bg;
+               height: 30%;
+               display: flex;
+               justify-content: center;
+               align-items: center;
             }
 
             &-list {
+               height: 70%;
                display: flex;
                flex-wrap: wrap;
+               align-items: center;
+               justify-content: center;
 
                >* {
                   background-color: $color-bg;
@@ -114,6 +134,18 @@
             }
          }
 
+      }
+
+      &--contact {
+         z-index: 1;
+         background-color: rgba(0, 0, 0, 0.5);
+         height: 100%;
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         border-radius: 10px;
       }
    }
 
