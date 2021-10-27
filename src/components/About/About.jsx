@@ -4,13 +4,14 @@ import TechIcon from '../TechIcon/TechIcon'
 import gmail from '../../assets/icons/google-gmail.svg'
 import linkedinLogo from '../../assets/icons/linkedin-blue.svg'
 import cv from '../../assets/icons/cv.svg'
+import githubIcon from '../../assets/icons/github-white.svg'
 
 import './About.scss'
 import about from '../../data/about'
 
 
 const About = () => {
-   const { intro, techStack, photo, experience, email, linkedin } = about
+   const { intro, techStack, photo, experience, email, linkedin, github } = about
 
    const techStackJSX = techStack.map((tech, index) => {
       return <TechIcon name={tech} key={tech + index} />
@@ -48,6 +49,7 @@ const About = () => {
                <div className="about__content--contact-list">
                   <a href={email} className="about__content--contact-list-item" target="_blank" rel="noreferrer"><img src={gmail} alt="" /></a>
                   <a href={linkedin} className="about__content--contact-list-item" target="_blank" rel="noreferrer"><img src={linkedinLogo} alt="" /></a>
+                  <a href={github} className="about__content--contact-list-item" target="_blank" rel="noreferrer"><img src={githubIcon} alt="" /></a>
                   <a href="#" className="about__content--contact-list-item" target="_blank" rel="noreferrer"><img src={cv} alt="" /></a>
                </div>
                <div className="about__content--contact-footer">
