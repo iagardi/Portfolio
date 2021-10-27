@@ -2,12 +2,11 @@
 @use './assets/styles/mixin'as *;
 
 .App {
-   height: 100vh;
+   min-height: 100vh;
    margin: auto;
    background-color: $color-bg;
    min-width: 320px;
+   display: flex;
+   flex-direction: column;
 
-   // @include laptop {
-   //    max-width: 1280px;
-   // }
 }
