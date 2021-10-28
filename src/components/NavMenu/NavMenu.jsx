@@ -6,7 +6,7 @@ import './NavMenu.scss'
 
 const NavMenu = () => {
    const [showMenu, setShowMenu] = useState(false)
-   const [activeNav, setActiveNav] = useState("")
+   const [activeNav, setActiveNav] = useState("homebutton")
 
    const handleNavActive = (event) => {
       setActiveNav(event.target.name)
