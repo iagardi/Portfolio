@@ -36,10 +36,11 @@
       overflow-y: scroll;
 
       @include tablet {
-         display: flex;
-         flex-direction: column;
          height: 90vh;
          width: 100%;
+         grid-auto-rows: minmax(25vh, 25vh);
+         padding: calc(100vw * 0.03);
+         gap: calc(100vw * 0.03);
       }
 
       &--profile {
@@ -58,7 +59,7 @@
          @include tablet {
             display: flex;
             flex-direction: row;
-            height: 30vh;
+            height: 100%;
             width: 100%;
             align-items: center;
             justify-content: space-around;
@@ -77,11 +78,11 @@
          }
 
          &-photo {
-            height: 40%;
+            height: 35%;
             width: auto;
 
             @include tablet {
-               // width: auto;
+               width: auto;
                height: 70%;
             }
 
@@ -93,8 +94,8 @@
 
             @include tablet {
                height: 65%;
-               width: 60%;
-               overflow-y: scroll;
+               width: 75%;
+               // overflow-y: scroll;
                font-size: 1.2rem;
             }
 
@@ -112,8 +113,17 @@
          justify-content: center;
          border-radius: 10px;
 
+         @include tablet {
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            width: 100%;
+            align-items: center;
+            justify-content: space-around;
+         }
+
          &-tech {
-            height: 60%;
+            height: 100%;
             width: 80%;
             margin: auto;
             display: flex;
@@ -141,7 +151,7 @@
                   width: 4rem;
 
                   @include tablet {
-                     width: 7rem;
+                     width: 4rem;
                   }
                }
             }
@@ -157,7 +167,7 @@
             align-items: center;
 
             @include tablet {
-               height: 30%;
+               height: 100%;
                flex-direction: column;
             }
 
@@ -200,6 +210,14 @@
          justify-content: center;
          border-radius: 10px;
 
+         @include tablet {
+            height: 100%;
+            width: 100%;
+            align-items: center;
+            justify-content: space-around;
+            padding: 3% 0;
+         }
+
          &-title {
             color: $color-bg;
             height: 10%;
@@ -216,13 +234,23 @@
             align-items: center;
             justify-content: center;
 
+            @include tablet {
+               flex-direction: row;
+               justify-content: center;
+               padding: 0 10%;
+            }
+
             &-item {
                height: 25%;
                width: 80%;
-
                display: flex;
                align-items: center;
                justify-content: center;
+
+               @include tablet {
+                  height: 50%;
+                  width: 20%;
+               }
 
                img {
                   height: 60%;
