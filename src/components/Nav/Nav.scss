@@ -7,8 +7,9 @@
    justify-content: space-between;
    border-bottom: 1px solid $color-fonts;
    height: 10vh;
+   width: 100%;
 
-   @include laptop {
+   @include desktop {
       max-width: 1280px;
       margin: auto;
    }
