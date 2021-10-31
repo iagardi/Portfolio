@@ -21,6 +21,12 @@ const projects = [{
    technology: ["react"],
    hostedURL: "https://iagardi.github.io/Punk-API/",
    githubURL: "https://github.com/iagardi/Punk-API",
+}, {
+   name: "Snake",
+   description: "My remake of Nokia's classic Snake game",
+   technology: ["html", "sass", "javascript"],
+   hostedURL: "https://iagardi.github.io/Snake/",
+   githubURL: "https://github.com/iagardi/Snake",
 }]
 
 export default projects

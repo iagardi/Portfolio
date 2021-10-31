@@ -7,7 +7,7 @@ const about = {
    email: "istvan.agardi83@gmail.com",
    experience: ["TDD", "CI/CD", "Agile", "OOP"],
    github: "https://github.com/iagardi",
-   linkedin: "https://www.linkedin.com/in/istvan-agardi-mih-91701681/"
+   linkedin: "https://www.linkedin.com/in/istvan-agardi-91701681/"
 }
 
 export default about
