@@ -24,7 +24,7 @@ const NavMenu = () => {
             <Link to="/home" className={activeNav === "homebutton" ? "nav-menu__links--item--active" : "nav-menu__links--item"} name="homebutton" onClick={handleNavActive}>Home</Link>
             <Link to="/projects" className={activeNav === "projectsbutton" ? "nav-menu__links--item--active" : "nav-menu__links--item"} name="projectsbutton" onClick={handleNavActive}>Projects</Link>
             <Link to="/about" className={activeNav === "aboutbutton" ? "nav-menu__links--item--active" : "nav-menu__links--item"} name="aboutbutton" onClick={handleNavActive}>About</Link>
-            <a href to={cv} download className="nav-menu__links--item--cv">Resume<Download className="icon" /></a>
+            {/* <a href to={cv} download className="nav-menu__links--item--cv">Resume<Download className="icon" /></a> */}
          </div>
          <div className="nav-menu__burger" onClick={handleBurgerMenu}>
             <div className="nav-menu__burger--patty"></div>
@@ -35,7 +35,7 @@ const NavMenu = () => {
             <Link to="/home" className="nav-menu__temp--item" onClick={handleBurgerMenu}>Home</Link>
             <Link to="/projects" className="nav-menu__temp--item" onClick={handleBurgerMenu}>Projects</Link>
             <Link to="/about" className="nav-menu__temp--item" onClick={handleBurgerMenu}>About</Link>
-            <Link to={cv} download className="nav-menu__temp--item--cv">Resume<Download className="icon" /></Link>
+            {/* <Link to={cv} download className="nav-menu__temp--item--cv">Resume<Download className="icon" /></Link> */}
          </div>}
       </div>
    )
