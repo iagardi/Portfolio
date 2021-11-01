@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.2486438c.chunk.css",
-    "main.js": "/Portfolio/static/js/main.97e86160.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.97e86160.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.cd4b10b0.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.cd4b10b0.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.1d2e05e6.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.1d2e05e6.js.map",
     "static/js/2.f28dc3d3.chunk.js": "/Portfolio/static/js/2.f28dc3d3.chunk.js",
@@ -32,6 +32,7 @@
     "static/media/linkedin-blue.a664ab45.svg": "/Portfolio/static/media/linkedin-blue.a664ab45.svg",
     "static/media/linkedin-white.4a6d77f9.svg": "/Portfolio/static/media/linkedin-white.4a6d77f9.svg",
     "static/media/morse-translator.795976eb.png": "/Portfolio/static/media/morse-translator.795976eb.png",
+    "static/media/punk-api.aecb4003.png": "/Portfolio/static/media/punk-api.aecb4003.png",
     "static/media/react.19465659.svg": "/Portfolio/static/media/react.19465659.svg",
     "static/media/sass.3572f53e.svg": "/Portfolio/static/media/sass.3572f53e.svg"
   },
@@ -39,6 +40,6 @@
     "static/js/runtime-main.1d2e05e6.js",
     "static/js/2.f28dc3d3.chunk.js",
     "static/css/main.2486438c.chunk.css",
-    "static/js/main.97e86160.chunk.js"
+    "static/js/main.cd4b10b0.chunk.js"
   ]
 }
