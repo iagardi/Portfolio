@@ -50,7 +50,7 @@ const About = () => {
                   <a href={email} className="about__content--contact-list-item" target="_blank" rel="noreferrer"><img src={gmail} alt="" /></a>
                   <a href={linkedin} className="about__content--contact-list-item" target="_blank" rel="noreferrer"><img src={linkedinLogo} alt="" /></a>
                   <a href={github} className="about__content--contact-list-item" target="_blank" rel="noreferrer"><img src={githubIcon} alt="" /></a>
-                  {/* <a href="#" className="about__content--contact-list-item" target="_blank" rel="noreferrer"><img src={cv} alt="" /></a> */}
+                  <a href="https://drive.google.com/file/d/1jh1BzpkLEnHk6-ExnIr-mG2GmHk5FXgS/view?usp=sharing" className="about__content--contact-list-item" target="_blank" rel="noreferrer"><img src={cv} alt="" /></a>
                </div>
                <div className="about__content--contact-footer">
                   Istvan Agardi, 2021
