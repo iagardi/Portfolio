@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.32d8c531.chunk.css",
-    "main.js": "/Portfolio/static/js/main.eeafbf7b.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.eeafbf7b.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.6783ba14.chunk.css",
+    "main.js": "/Portfolio/static/js/main.243e62ad.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.243e62ad.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.1d2e05e6.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.1d2e05e6.js.map",
     "static/js/2.3370f674.chunk.js": "/Portfolio/static/js/2.3370f674.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0e29a2a1.chunk.js": "/Portfolio/static/js/3.0e29a2a1.chunk.js",
     "static/js/3.0e29a2a1.chunk.js.map": "/Portfolio/static/js/3.0e29a2a1.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.32d8c531.chunk.css.map": "/Portfolio/static/css/main.32d8c531.chunk.css.map",
+    "static/css/main.6783ba14.chunk.css.map": "/Portfolio/static/css/main.6783ba14.chunk.css.map",
     "static/js/2.3370f674.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.3370f674.chunk.js.LICENSE.txt",
     "static/media/arrow-right.8f0c49fd.svg": "/Portfolio/static/media/arrow-right.8f0c49fd.svg",
     "static/media/calculator.a8007da6.png": "/Portfolio/static/media/calculator.a8007da6.png",
@@ -30,6 +30,7 @@
     "static/media/jest.662207d2.svg": "/Portfolio/static/media/jest.662207d2.svg",
     "static/media/linkedin-blue.a664ab45.svg": "/Portfolio/static/media/linkedin-blue.a664ab45.svg",
     "static/media/linkedin-white.4a6d77f9.svg": "/Portfolio/static/media/linkedin-white.4a6d77f9.svg",
+    "static/media/lujam.9207ffc6.png": "/Portfolio/static/media/lujam.9207ffc6.png",
     "static/media/morse-translator.795976eb.png": "/Portfolio/static/media/morse-translator.795976eb.png",
     "static/media/punk-api.aecb4003.png": "/Portfolio/static/media/punk-api.aecb4003.png",
     "static/media/react.19465659.svg": "/Portfolio/static/media/react.19465659.svg",
@@ -38,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.1d2e05e6.js",
     "static/js/2.3370f674.chunk.js",
-    "static/css/main.32d8c531.chunk.css",
-    "static/js/main.eeafbf7b.chunk.js"
+    "static/css/main.6783ba14.chunk.css",
+    "static/js/main.243e62ad.chunk.js"
   ]
 }
