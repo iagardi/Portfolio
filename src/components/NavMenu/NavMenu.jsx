@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ReactComponent as Download } from '../../assets/icons/download.svg'
+
 
 
 import './NavMenu.scss'
